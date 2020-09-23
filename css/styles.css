@@ -5,11 +5,17 @@
  */
 
 
-
+html {
+  scroll-behavior: smooth;
+  margin: 0px !important;
+  padding: 0px !important;
+  width: 100%;
+  height: 100%;
+}
 
 @media (min-width: 992px) {
   header {
-    padding: 275px 0 100px;
+    padding: 275px 0 100px 0;
     }
 }
 
@@ -26,74 +32,100 @@
   font-weight: 600;
 }
 
+
+@media screen and (max-width: 1501px) {
+  .navbar-nav {
+    background-color: #C1C1C1 !important;
+    border-radius: 100px;
+  }
+  
+}
+
+@media screen and (max-width: 991px) {
+  .navbar-brand {
+    float: left;
+  }
+  .navbar-toggler {
+    float: right
+    margin: 0;
+  }
+  .navbar-collapse {
+    clear: both;
+    background-color: #c1c1c1;
+    padding: 10px;
+  }
+  .blob-1 {
+    max-width: 250px;
+    left: 20%;
+  }
+  
+}
+
 .navbar.scrolled {
-  background: rgba(41,47,54,1);
+  background: ;
 }
 
 .navbar-brand {
   display: block;
-  width: 300px;
-  height: 100px;
-  background-image: url("../images/NC-logo.png");
+  width: 110px;
+  height: 110px;
+  background-color: #fff;
+  background-position: center;
+  border-radius: 100px;
   background-repeat: no-repeat;
 }
 
-.container img {
+/*.navbar-toggler {
+  float: right;
+}*/
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(243,70,75,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+  border-color: rgb(243,70,75);
+} 
+
+/*.container img {
 	background-size: 100px;
+}*/
+
+.container {
+  position: relative;
+  text-align: center;
 }
 
 header {
   height: 850px;
-  background: linear-gradient(
-    rgba(0,0,0,0.35),
-    rgba(0,0,0,0.35)
-    ),
- url("../images/header-image-1.svg");
+  background: #fff;
   color: white;
-  background-size: cover;
-  background-position: center top;
+  /*background-position: left top;*/
   font-family: 'Poppins';
   font-weight: 600;
 }
 
+.blob-1 {
+  transform: translate(-550px, -100px);
+  max-height: 600px !important;
+  max-width: 100% !important;
+  float: none;
+  margin: 0 auto !important;
+}
+
+
 h1,h5 {
+  position: absolute;
   text-align: left;
+  color: #000;
 }
 
-section {
-  padding: 100px 20px;
-}
-
-#section1 img {
-  height: 350px;
-  width: 500px;
-}
-
-#section2 img {
-  height: 350px;
-  width: 400px;
-}
-
-
-/*a {
-  color: #53d69a;
-}
-
-a:hover {
-  color: #53d69a;
-}
-
-a:visited {
-  color: #53d69a;
-}*/
 
 .nav-link {
+  padding: 8px 1.5rem !important;
   color: #000 !important;
 }
 
-figcaption {
-  font-size: 0.9em;
-}
 
 footer { 
   padding: 0 20px;
