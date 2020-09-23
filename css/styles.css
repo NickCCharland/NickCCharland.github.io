@@ -104,7 +104,7 @@ header {
 .blob-1 {
   display: inline-block;
   position: relative;
-  transform: translate(-150px, -100px);
+  transform: translate(-170px, -100px);
   max-height: 600px;
   width: 100%;
   max-width: 250px;
