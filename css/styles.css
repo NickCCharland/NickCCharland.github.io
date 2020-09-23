@@ -112,6 +112,17 @@ header {
   margin: 0 auto;
 }
 
+.blob-2 {
+  display: inline-block;
+  position: relative;
+  /*transform: translate(125px, -200px);*/
+  max-height: 600px;
+/*  width: 100%;
+  max-width: 250px;*/
+  float: none;
+  margin: 0 auto;
+}
+
 
 h1,h5 {
   position: absolute;
