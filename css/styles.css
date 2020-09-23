@@ -113,14 +113,12 @@ header {
 }
 
 .blob-2 {
+
   display: inline-block;
   position: relative;
-  /*transform: translate(125px, -200px);*/
-  max-height: 600px;
-/*  width: 100%;
-  max-width: 250px;*/
-  float: none;
-  margin: 0 auto;
+  width: 100%;
+  max-width: 250px;
+  transform: translate(175px, -200px);
 }
 
 
