@@ -59,11 +59,6 @@ html {
 }
 
 
-
-.navbar.scrolled {
-  background: ;
-}
-
 .navbar-brand {
   display: block;
   width: 110px;
@@ -74,9 +69,6 @@ html {
   background-repeat: no-repeat;
 }
 
-/*.navbar-toggler {
-  float: right;
-}*/
 
 .custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(243,70,75,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
@@ -86,17 +78,9 @@ html {
   border-color: rgb(243,70,75);
 } 
 
-/*.container img {
-	background-size: 100px;
-}*/
-
-/*.container {
-  position: relative;
-  text-align: center;
-}*/
 
 .jumbotron {
-  height: 850px;
+  height: 750px;
   background-image: url("../images/header-image.svg");
   background-repeat: no-repeat;
   background-position: center top;
@@ -106,29 +90,6 @@ html {
   font-family: 'Poppins';
   font-weight: 600;
 }
-
-/*.blob-1 {
-  display: inline-block;
-  position: relative;
-  transform: translate(-170px, -100px);
-  max-height: 600px;
-  width: 100%;
-  max-width: 250px;
-  float: none;
-  margin: 0 auto;
-}*/
-
-/*.blob-2 {
-
-  display: inline-block;
-  position: relative;
-  transform: translate(175px, -200px);
-  max-height: 600px;
-  width: 100%;
-  max-width: 250px;
-  float: none;
-  margin: 0 auto;
-}*/
 
 
 .container h1 {
@@ -151,23 +112,17 @@ html {
   color: #000 !important;
 }
 
+.row {
+  margin: 75px;
+}
+
 /*.card {
-  width: 500px;
+  padding: 0;
+  width: auto;
+}
+
+.col-sm-6 {
+  padding: 0;
 }*/
 
 
-footer { 
-  padding: 0 20px;
-  height: 200px;
-  background-color: rgba(41,47,54,1);
-  background-image: url("../images/SMAD_203_LOGO.svg");
-  background-repeat: no-repeat;
-  background-size: 150px;
-  text-align: center;
-  background-position: top center;
-}
-
-
-.gold-bg {
-  background-color: #f1f1f1;
-}
