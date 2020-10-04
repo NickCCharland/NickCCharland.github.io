@@ -6,6 +6,7 @@
 
 
 html {
+  font-family: 'Poppins';
   scroll-behavior: smooth;
   margin: 0px !important;
   padding: 0px !important;
@@ -21,6 +22,15 @@ html {
 
 @media (max-width: 991px) {
   header {
+    padding-top: 100px;
+  }
+}
+
+@media (max-width: 576px) {
+  header {
+    height: 550px;
+  }
+  .container h5 {
     padding-top: 100px;
   }
 }
@@ -106,6 +116,10 @@ html {
   color: #606369;
 }
 
+h2 {
+  font-weight: 600;
+}
+
 
 .nav-link {
   padding: 8px 1.5rem !important;
@@ -116,13 +130,29 @@ html {
   margin: 75px;
 }
 
-/*.card {
-  padding: 0;
-  width: auto;
+.card {
+  border: #e2e3e7 1px;
+  border-style: solid;
+  border-radius: 20px;
+  transition: 0.5s ease;
 }
 
-.col-sm-6 {
-  padding: 0;
-}*/
+.card:hover {
+  transition: all 0.5s ease;
+  -webkit-transform: translateY(-12px);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+
+.card-img-top {
+  flex-shrink: 0;
+  width: 100%;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+
+
+
 
 
