@@ -19,6 +19,11 @@
 		<!-- Custom styles for this template -->
 		<link href="css/styles.css" rel="stylesheet">
 
+		<!-- Fontawesome -->
+		 <link href="css/scrolling-nav.css" rel="stylesheet">
+
+		
+
 	</head>
 
 	<body id="page-top">
@@ -56,7 +61,24 @@
 			<div class="jumbotron">
 				<div class="container text-center">
 					<h5>Hi &#128075;! Welcome to my portfolio. </h5><br><br>
-					<h1>My name is Nicholas Charland and I am</h1>
+					<h1>My name is Nicholas Charland and I am <span id="typed-anim"></span></h1>
+
+					<!-- Typeit.js Animation Library -->
+					<script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
+    					<script>
+      						new TypeIt('#typed-anim', {
+      						speed: 75,
+      						waitUntilVisible: true,
+      						loop: true,
+      						deleteSpeed: 75,
+      						})
+        					.type('a student.', {delay: 700})
+        					.delete(10, {delay: 700})
+  							.type('a designer.', {delay: 700})
+  							.delete(11, {delay: 700})
+  							.type('a problem-solver.', {delay: 700})
+      						.go();
+   		 				</script>
 				</div>
 			</header>
 

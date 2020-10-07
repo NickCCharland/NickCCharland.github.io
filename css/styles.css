@@ -120,6 +120,16 @@ h2 {
   font-weight: 600;
 }
 
+#typed-anim {
+  color: #FFF;
+  background-color: #f4454a;
+}
+
+img.mouse {
+  color: #000;
+  size: 25px 25px;
+}
+
 
 .nav-link {
   padding: 8px 1.5rem !important;
