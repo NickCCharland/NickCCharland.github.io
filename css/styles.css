@@ -128,7 +128,7 @@ span.ti-cursor {
   color: #000; 
   font: 500 32px / 38.4px Poppins; 
   margin: 0px -7.1875px 0px -3.1875px;
-  animation: blink .75s step-end infinite;
+  animation: blink .75s infinite;
 }
 
 @keyframes blink {
