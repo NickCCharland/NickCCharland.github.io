@@ -61,7 +61,7 @@
 			<div class="jumbotron">
 				<div class="container text-center">
 					<h5>Hi &#128075;! Welcome to my portfolio. </h5><br><br>
-					<h1>My name is Nicholas Charland and I am <span id="typed-anim"></span></h1>
+					<h1>My name is Nicholas Charland and I am <span id="typed-anim"></span><span class="ti-cursor with-delay">|</span></h1>
 
 					<!-- Typeit.js Animation Library -->
 					<script src="https://cdn.jsdelivr.net/npm/typeit@7.0.4/dist/typeit.min.js"></script>
@@ -71,12 +71,13 @@
       						waitUntilVisible: true,
       						loop: true,
       						deleteSpeed: 75,
+      						cursor: false,
       						})
-        					.type('a student.', {delay: 700})
-        					.delete(10, {delay: 700})
-  							.type('a designer.', {delay: 700})
+        					.type('a student.', {delay: 1500})
+        					.delete(10, {delay: 800})
+  							.type('a designer.', {delay: 1500})
   							.delete(11, {delay: 700})
-  							.type('a problem-solver.', {delay: 700})
+  							.type('a problem-solver.', {delay: 1300})
       						.go();
    		 				</script>
 				</div>

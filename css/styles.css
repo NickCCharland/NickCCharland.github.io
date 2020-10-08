@@ -30,10 +30,8 @@ html {
   header {
     height: 550px;
   }
-  .container h5 {
-    padding-top: 100px;
-  }
 }
+
 
 .navbar {
   transition: 500ms ease;
@@ -121,15 +119,26 @@ h2 {
 }
 
 #typed-anim {
-  color: #FFF;
+  color: #fff;
   background-color: #f4454a;
 }
 
-img.mouse {
-  color: #000;
-  size: 25px 25px;
+span.ti-cursor {
+  display: inline; 
+  color: #000; 
+  font: 500 32px / 38.4px Poppins; 
+  margin: 0px -7.1875px 0px -3.1875px;
+  animation: blink .75s step-end infinite;
 }
 
+@keyframes blink {
+    from, to { 
+        opacity: 0%;
+    }
+    50% { 
+        opacity: 100%; 
+    }
+}
 
 .nav-link {
   padding: 8px 1.5rem !important;
@@ -162,7 +171,11 @@ img.mouse {
 }
 
 
-
+@media screen and (max-width: 576px) {
+  .container h5 {
+    padding: 0px;
+  }
+}
 
 
 
