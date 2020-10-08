@@ -173,7 +173,11 @@ span.ti-cursor {
 
 @media screen and (max-width: 576px) {
   .container h5 {
-    padding: 0px;
+    padding-top: 0px;
+    text-align: center;
+  }
+  .container h1 {
+    padding-top: 60px;
   }
 }
 
