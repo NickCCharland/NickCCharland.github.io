@@ -4,6 +4,20 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
 
+body { 
+    animation: fadeInAnimation linear 1s; 
+    animation-iteration-count: 1; 
+    animation-fill-mode: forwards; 
+} 
+  
+@keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+     } 
+} 
 
 html {
   font-family: 'Poppins';
@@ -59,11 +73,15 @@ html {
   }
   .navbar-collapse {
     clear: both;
-    background-color: #c1c1c1;
+    background-color: #fff;
     padding: 10px;
     text-align: center;
   }
-  
+  .navbar-nav {
+    clear: both;
+    border-radius: 40px;
+  }
+
 }
 
 
@@ -85,6 +103,11 @@ html {
 .custom-toggler.navbar-toggler {
   border-color: rgb(243,70,75);
 } 
+
+ul li a {
+  color: #f3464c !important;
+}
+
 
 
 .jumbotron {
@@ -183,6 +206,8 @@ span.ti-cursor {
     padding-bottom: 50px;
   }
 }
+
+
 
 
 
