@@ -30,4 +30,14 @@
   $('nav').toggleClass('scrolled', $(this).scrollTop() > 190);
 });
 
+  $(document).ready(function() {
+    $("#navbarResponsive > ul > li").click(function(){
+        $("#navbarResponsive > ul > li").each(function(){
+            $(this).removeClass("active");
+        });
+        $(this).addClass('active');
+        
+    });
+});
+
 })(jQuery); // End of use strict

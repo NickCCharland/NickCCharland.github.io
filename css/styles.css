@@ -104,12 +104,6 @@ html {
   border-color: rgb(243,70,75);
 } 
 
-ul li a {
-  color: #f3464c !important;
-}
-
-
-
 .jumbotron {
   height: 750px;
   background-image: url("../images/header-image.svg");
@@ -131,7 +125,8 @@ ul li a {
 }
 
 .container h5 {
-  padding-top: 75px;
+  padding-top: 5px;
+  padding-bottom: 75px;
   position: relative;
   text-align: left;
   color: #606369;
@@ -163,10 +158,26 @@ span.ti-cursor {
     }
 }
 
+  a.color-me:visited {
+    color: #000 !important;
+  }
+
+  a.color-me:hover {
+    color: #f3464c !important;
+  }
+
 .nav-link {
   padding: 8px 1.5rem !important;
-  color: #000 !important;
 }
+
+.nav-link {
+    color: #000 !important;
+}
+
+.homeHighlight {
+    color: #f3464c !important;
+}
+
 
 .row {
   margin: 75px;
