@@ -1,0 +1,14 @@
+body {
+	background-color: #f3f5f7;
+}
+.navbar-brand {
+	background-color: #f3f5f7;
+}
+
+.jumbotron-fluid {
+  background-image: url("../images/studyspot.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}

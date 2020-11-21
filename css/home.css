@@ -1,0 +1,11 @@
+.jumbotron {
+  height: 750px;
+  background-image: url("../images/header-image.svg");
+  background-repeat: no-repeat;
+  background-position: center top;
+  width: 100%;
+  max-width: 1980px;
+  background-color: white;
+  font-family: 'Poppins';
+  font-weight: 600;
+}

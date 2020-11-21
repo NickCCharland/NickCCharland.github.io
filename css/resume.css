@@ -1,3 +1,28 @@
+body {
+	padding-bottom: 50px;
+}
+
 h2.titles {
 	color: #f3464c;
+}
+
+ul {
+	padding-left: 17px;
+	margin-left: 0px;
+}
+
+h3 {
+	font-size: 22px;
+}
+
+h4 {
+	font-size: 22px;
+}
+
+h6 {
+	font-size: 14px;
+}
+
+p {
+	font-size: 18px;
 }
