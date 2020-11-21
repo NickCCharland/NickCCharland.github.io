@@ -1,8 +1,14 @@
 body {
 	background-color: #f3f5f7;
 }
-.navbar-brand {
-	background-color: #f3f5f7;
+
+h1 {
+	color: #f68d4d !important;
+}
+
+.intro {
+	color: #f68d4d;
+	padding-top: 600px;
 }
 
 .jumbotron-fluid {
