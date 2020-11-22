@@ -18,3 +18,22 @@ h1 {
   background-size: cover;
   height: 100vh;
 }
+
+.navbar-brand {
+	background-color: #f3f5f7;
+}
+
+.secondaryHeader {
+	color: #f68d4d !important;
+}
+
+
+.utilities-prototype {
+	background-color: #000;
+	border-radius:50px;
+}
+
+
+
+
+

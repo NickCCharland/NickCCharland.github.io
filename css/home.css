@@ -9,3 +9,7 @@
   font-family: 'Poppins';
   font-weight: 600;
 }
+
+.navbar-brand {
+	background-color: #fff;
+}
