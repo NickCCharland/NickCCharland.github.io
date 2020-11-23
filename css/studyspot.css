@@ -6,6 +6,16 @@ h1 {
 	color: #f68d4d !important;
 }
 
+h2:after {
+    content: '';
+    background: #f68d4d;
+    margin-top: 20px;
+    width: 100px;
+    height: 2px;
+    display: block;
+ 
+}
+
 .intro {
 	color: #f68d4d;
 	padding-top: 600px;
@@ -19,12 +29,24 @@ h1 {
   height: 100vh;
 }
 
+.navbar {
+	background: transparent;
+}
+
 .navbar-brand {
 	background-color: #f3f5f7;
 }
 
 .secondaryHeader {
 	color: #f68d4d !important;
+}
+
+.col-4 {
+	padding: 0px;
+}
+
+.row {
+	margin: auto;
 }
 
 

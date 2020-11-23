@@ -44,7 +44,6 @@ html {
 
 .navbar {
   transition: 500ms ease;
-  background: transparent;
   font-family: 'Poppins';
   font-weight: 600;
 }
@@ -226,6 +225,11 @@ a:hover {
   .col-md-6 {
     width: 100%;
     padding-left: 0px;
+    padding-right: 0px;
+  }
+  .container1 {
+    width: 100%;
+    padding-left: 50px;
     padding-right: 0px;
   }
 }

@@ -1,0 +1,41 @@
+/*body {
+	 background-image: linear-gradient(to bottom right, #636161, #2c2e2e);
+}
+*/
+.navbar {
+	background-color: transparent;
+}
+
+div.campaign-content {
+	background-color: #353737;
+}
+
+
+.color-head {
+	color: #fff;
+}
+
+.jumbotron {
+  height: 875px;
+  background-image: url("../images/brochure_inside.png"), 
+  linear-gradient(to bottom right, #636161, #2c2e2e);
+  width: 100%;
+  max-width: 1980px;
+  background-repeat: no-repeat;
+  background-position: center top;
+  font-family: 'Poppins';
+  font-weight: 600;
+}
+
+.special-footer {
+	color: #fff;
+}
+
+.info-text {
+	color: #999;
+}
+
+
+
+
+
