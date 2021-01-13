@@ -18,16 +18,9 @@ h2:after {
 
 .intro {
 	color: #f68d4d;
-	padding-top: 600px;
+	padding-top: 20px
 }
 
-.jumbotron-fluid {
-  background-image: url("../images/studyspot.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-}
 
 .navbar {
 	background: transparent;
