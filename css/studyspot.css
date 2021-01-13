@@ -1,5 +1,5 @@
 body {
-	background-color: #f3f5f7;
+	background-color: #fff;
 }
 
 h1 {
@@ -16,6 +16,10 @@ h2:after {
  
 }
 
+h3 {
+	color: #3e3e3e !important;
+}
+
 .intro {
 	color: #f68d4d;
 	padding-top: 20px
@@ -27,7 +31,7 @@ h2:after {
 }
 
 .navbar-brand {
-	background-color: #f3f5f7;
+	background-color: #fff;
 }
 
 .secondaryHeader {
