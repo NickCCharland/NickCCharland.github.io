@@ -42,6 +42,16 @@ div.campaign-content {
 	border-radius: 20px;
 }
 
+.btn-primary, .btn-primary:active, .btn-primary:visited {
+    background: #f3464c !important;
+    border-style: none;
+    border-radius: 30px;
+}
+
+.btn-primary:hover {
+    background: #333 !important;
+}
+
 
 
 
