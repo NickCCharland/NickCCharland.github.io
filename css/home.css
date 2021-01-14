@@ -10,6 +10,18 @@
   font-weight: 600;
 }
 
+.jumbotron2 {
+  height: 750px;
+  background-image: url("../images/about-bg.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  max-width: 1980px;
+  background-color: white;
+  font-family: 'Poppins';
+  font-weight: 600;
+}
+
 .navbar {
   background: transparent;
 }
