@@ -21,6 +21,9 @@
 		<link href="css/home.css" rel="stylesheet" type="text/css" media="screen">
 		<link href="css/styles.css" rel="stylesheet" type="text/css" media="screen">
 
+		<!-- On Scroll Animation Behavior -->
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 
 		
 
@@ -89,58 +92,67 @@
 			</header>
 
 			<div class="content">
-
-				<h2 class="text-center">Recent Projects</h2>
-
+				<div data-aos="fade-up" data-aos-duration="650" data-aos-delay="50">
+					<h2 class="text-center">Recent Projects</h2>
+				</div>
 				<div class="row">
 					<div class="col-md-6 zero-padding half-height">
-						<div class="card w-100 fill-space">
-							<a href="studyspot.html">
-								<img src="images/studyspot.png" class="card-img-top" alt="Study Spot App Mockup"></a>
-								<div class="card-body">
-									<h5 class="card-title">STUDY SPOT</h5>
-									<p class="card-text">Semester-long UX Research and Design group project focusing on ideation, prototyping, usability testing, and presenting our findings.</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-6 zero-padding half-height">
+						<div data-aos="fade-up" data-aos-duration="750" data-aos-delay="75">
 							<div class="card w-100 fill-space">
-								<a href="canvas.html">
-									<img src="images/canvas.jpg" class="card-img-top" alt="Canvas app flow redesign mockup screen.">
-								</a>
-								<div class="card-body">
-									<h5 class="card-title">APP FLOW REDESIGN</h5>
-									<p class="card-text">A UX case study focusing on redesigning one user flow of an application that currently exists.</p>
+								<a href="studyspot.html">
+									<img src="images/studyspot.png" class="card-img-top" alt="Study Spot App Mockup"></a>
+									<div class="card-body">
+										<h5 class="card-title">STUDY SPOT</h5>
+										<p class="card-text">Semester-long UX Research and Design group project focusing on ideation, prototyping, usability testing, and presenting our findings.</p>
+									</div>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-6 zero-padding half-height">
-							<div class="card mw-100 fill-space">
-								<a href="hipux.html">
-									<img src="images/hip-ux.jpg" class="card-img-top" alt="Home page of Hip Ux Design project.">
-								</a>
-								<div class="card-body">
-									<h5 class="card-title">HIP UX DESIGN</h5>
-									<p class="card-text">A collection of websites created over the course of a semester to showcase excellent communication skills and web design.</p>
+							<div data-aos="fade-up" data-aos-duration="750" data-aos-delay="75">
+								<div class="card w-100 fill-space">
+									<a href="canvas.html">
+										<img src="images/canvas.jpg" class="card-img-top" alt="Canvas app flow redesign mockup screen.">
+									</a>
+									<div class="card-body">
+										<h5 class="card-title">APP FLOW REDESIGN</h5>
+										<p class="card-text">A UX case study focusing on redesigning one user flow of an application that currently exists.</p>
+									</div>
 								</div>
 							</div>
 						</div>
 						<div class="col-md-6 zero-padding half-height">
-							<div class="card mw-100 fill-space">
-								<a href="rmt.html">
-									<img src="images/home-RMT.png" class="card-img-top" alt="Mockup of Restorative Massage Therapy's facial page.">
-								</a>
-								<div class="card-body">
-									<h5 class="card-title">Client Work</h5>
-									<p class="card-text">This is a webpage redesign that I designed for Restroative Massage Therapy—a client that I worked with during my internship at Bluestone Communications.</p>
+							<div data-aos="fade-up" data-aos-duration="750" data-aos-delay="65">
+								<div class="card mw-100 fill-space">
+									<a href="hipux.html">
+										<img src="images/hip-ux.jpg" class="card-img-top" alt="Home page of Hip Ux Design project.">
+									</a>
+									<div class="card-body">
+										<h5 class="card-title">HIP UX DESIGN</h5>
+										<p class="card-text">A collection of websites created over the course of a semester to showcase excellent communication skills and web design.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-md-6 zero-padding half-height">
+							<div data-aos="fade-up" data-aos-duration="750" data-aos-delay="65">
+								<div class="card mw-100 fill-space">
+									<a href="rmt.html">
+										<img src="images/home-RMT.png" class="card-img-top" alt="Mockup of Restorative Massage Therapy's facial page.">
+									</a>
+									<div class="card-body">
+										<h5 class="card-title">Client Work</h5>
+										<p class="card-text">This is a webpage redesign that I designed for Restroative Massage Therapy—a client that I worked with during my internship at Bluestone Communications.</p>
+									</div>
 								</div>
 							</div>
 						</div>
 					</div>
 				</div><!--end Content div -->
 
-				<br><br><br><br>
+				<br><br><br>
 
+			<div class="panel2-text" data-aos="fade-up" data-aos-duration="750" data-aos-delay="105">
 				<div class="jumbotron2">
 					<h2 class="text-center">About Me</h2>
 					<div class="container">
@@ -155,6 +167,7 @@
 						</div>
 					</div>
 				</div>
+			</div>
 				
 
 				<div class="container">
@@ -180,6 +193,12 @@
 
 				<!-- Plugin JavaScript -->
 				<script src="jquery-easing/jquery.easing.min.js"></script>
+
+				<!-- AOS On Scroll Animation JavaScript Database -->
+				<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+				<script>
+					AOS.init();
+				</script>
 
 
 			</body>
