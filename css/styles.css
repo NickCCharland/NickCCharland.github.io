@@ -89,13 +89,59 @@ html {
 }
 
 
-.custom-toggler .navbar-toggler-icon {
+/*.custom-toggler .navbar-toggler-icon {
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(243,70,75,1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
-}
+}*/
 
 .custom-toggler.navbar-toggler {
   border-color: rgb(243,70,75);
 } 
+
+/*Testing navbar animation*/
+.navbar-toggler {
+    border-color: #444;
+}
+ 
+.navbar-dark .navbar-toggler:focus {
+    background: none;
+    outline: 0;
+}
+ 
+.navbar-dark .navbar-toggler span {
+    display: block;
+    width: 30px;
+    height: 2px;
+    margin: 6px auto;
+    background: #fff;
+    transition: all .6s cubic-bezier(0.250, 0.100, 0.250, 1.000);
+}
+ 
+
+.navbar-dark .navbar-toggler span {
+    background: #f3464c;
+}
+ 
+/* rotate first span */
+.navbar-dark .navbar-toggler[aria-expanded="true"] span:first-of-type {
+    transform: rotate(45deg) translate(6px, 6px);
+}
+ 
+/* hide second span */
+.navbar-dark .navbar-toggler[aria-expanded="true"] span:nth-of-type(2) {
+    opacity: 0;
+}
+ 
+/* rotate third span */
+.navbar-dark .navbar-toggler[aria-expanded="true"] span:last-of-type {
+    transform: rotate(-45deg) translate(5px, -5px);
+}
+ 
+.navbar-dark .navbar-toggler[aria-expanded="false"] span {
+    transform: none;
+    opacity: 1;
+}
+ 
+/*end test*/
 
 
 
