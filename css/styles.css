@@ -266,6 +266,7 @@ a:hover {
   text-decoration: none;
 }
 
+
 @media screen and (max-width: 576px) {
   .container h5 {
     padding-top: 0px;
