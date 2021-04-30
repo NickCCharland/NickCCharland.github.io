@@ -22,29 +22,7 @@
 		<link href="css/styles.css" rel="stylesheet" type="text/css" media="screen">
 
 		<!-- On Scroll Animation Behavior -->
-		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-
-		<!--Disable Vanilla Tilt on Mobile-->
-		<script>
-			(function() {
-				var elements = document.querySelectorAll("[data-tilt]");
-				elements.forEach(function(item, index){
-					function onMouseMove(event) {
-						if(event.movementX == 0 && event.movementY == 0) return false;
-						if (this.updateCall !== null) {
-							cancelAnimationFrame(this.updateCall);
-						}
-						this.event = event;
-						this.updateCall = requestAnimationFrame(this.updateBind);
-					}
-					var tiltObj = item.vanillaTilt;
-					tiltObj.elementListener.removeEventListener("mousemove", tiltObj.onMouseMoveBind);      
-					tiltObj.onMouseMoveBind = onMouseMove.bind(tiltObj);
-					tiltObj.elementListener.addEventListener("mousemove", tiltObj.onMouseMoveBind);
-				});     
-			})();
-		</script>
-		
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">		
 
 	</head>
 
@@ -228,6 +206,28 @@
 				<script>
 					AOS.init();
 				</script>
+
+						<!--Disable Vanilla Tilt on Mobile-->
+		<script>
+			(function() {
+				var elements = document.querySelectorAll("[data-tilt]");
+				elements.forEach(function(item, index){
+					function onMouseMove(event) {
+						if(event.movementX == 0 && event.movementY == 0) return false;
+						if (this.updateCall !== null) {
+							cancelAnimationFrame(this.updateCall);
+						}
+						this.event = event;
+						this.updateCall = requestAnimationFrame(this.updateBind);
+					}
+					var tiltObj = item.vanillaTilt;
+					tiltObj.elementListener.removeEventListener("mousemove", tiltObj.onMouseMoveBind);      
+					tiltObj.onMouseMoveBind = onMouseMove.bind(tiltObj);
+					tiltObj.elementListener.addEventListener("mousemove", tiltObj.onMouseMoveBind);
+				});     
+			})();
+		</script>
+
 
 
 			</body>
