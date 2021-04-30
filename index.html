@@ -26,34 +26,23 @@
 
 		<!--Disable Vanilla Tilt on Mobile-->
 		<script>
-			 var isMobile = {
-            Android: function () {
-                return navigator.userAgent.match(/Android/i);
-            },
-            BlackBerry: function () {
-                return navigator.userAgent.match(/BlackBerry/i);
-            },
-            iOS: function () {
-                return navigator.userAgent.match(/iPhone|iPad|iPod/i);
-            },
-            Opera: function () {
-                return navigator.userAgent.match(/Opera Mini/i);
-            },
-            Windows: function () {
-                return navigator.userAgent.match(/IEMobile/i);
-            },
-            any: function () {
-                return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
-            }
-        };
-
-        if (isMobile.any()) {
-
-        }
-        else {
-
-             VanillaTilt.init(); 
-        }
+			(function() {
+				var elements = document.querySelectorAll("[data-tilt]");
+				elements.forEach(function(item, index){
+					function onMouseMove(event) {
+						if(event.movementX == 0 && event.movementY == 0) return false;
+						if (this.updateCall !== null) {
+							cancelAnimationFrame(this.updateCall);
+						}
+						this.event = event;
+						this.updateCall = requestAnimationFrame(this.updateBind);
+					}
+					var tiltObj = item.vanillaTilt;
+					tiltObj.elementListener.removeEventListener("mousemove", tiltObj.onMouseMoveBind);      
+					tiltObj.onMouseMoveBind = onMouseMove.bind(tiltObj);
+					tiltObj.elementListener.addEventListener("mousemove", tiltObj.onMouseMoveBind);
+				});     
+			})();
 		</script>
 		
 
